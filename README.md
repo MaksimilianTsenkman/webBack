@@ -3,6 +3,8 @@
 ## Pre-requisites
 Node.js \& NPM
 
+## Do not forget to add the password: "" of your database in database.js
+
 ## Clone the repository
 ```
 git clone https://github.com/M-Gharib/WAD2022-Lab12-Backend.git
