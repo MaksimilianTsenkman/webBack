@@ -170,7 +170,7 @@ app.delete('/posts/:id', async(req, res) => {
     }
 });
 
-app.delete('/posts/delete-all', async (req, res) => {
+app.post('/posts/delete', async (req, res) => {
     try {
         console.log("Delete all posts request has arrived");
         const deleteAllPosts = await pool.query(
