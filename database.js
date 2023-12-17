@@ -24,7 +24,7 @@ const createPosts = `
     CREATE TABLE IF NOT EXISTS "posttable" (
 	    "id" SERIAL PRIMARY KEY,         
 	    "body" VARCHAR(200) NOT NULL,
-	    "date" TIMESTAMP NOT NULL,  
+	    "date" TIMESTAMP NOT NULL 
     );`;
 
 const createUsers = `
