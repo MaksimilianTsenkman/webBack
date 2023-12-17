@@ -23,10 +23,8 @@ const execute = async(query) => {
 const createPosts = `
     CREATE TABLE IF NOT EXISTS "posttable" (
 	    "id" SERIAL PRIMARY KEY,         
-	    "title" VARCHAR(200) NOT NULL,
 	    "body" VARCHAR(200) NOT NULL,
 	    "date" TIMESTAMP NOT NULL,  
-        "link" VARCHAR(200)
     );`;
 
 const createUsers = `
